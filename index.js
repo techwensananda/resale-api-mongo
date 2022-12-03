@@ -14,7 +14,7 @@ const userRoute = require('./v1/routes/user.route')
 
 const connetToDb = async () => {
     try {
-        await mongoose.connect('mongodb+srv://resale-user:SO02BQ8HweA4KVch@cluster0.c8sqzow.mongodb.net/resale-market?retryWrites=true&w=majority');
+        await mongoose.connect('mongodb+srv://resale-market:9FS3yfrDwolrpHMK@cluster0.3nz93gn.mongodb.net/resale-market?retryWrites=true&w=majority');
         console.log("coonented to db")
     } catch (error) {
         console.log(error);
