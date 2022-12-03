@@ -62,7 +62,7 @@ app.use("/api/v1/user", userRoute)
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World! mongo resale')
+    res.send(categoryRoute)
 })
 
 app.listen(port, () => {
